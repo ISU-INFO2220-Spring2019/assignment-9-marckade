@@ -1,0 +1,63 @@
+﻿@import url('secondstylesheet.css');
+
+body {
+    font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+p {
+    padding: 2ex;
+}
+#KadensPage span {
+    font-weight: bold;
+}
+#KadensPage table span {
+    text-decoration: underline;
+}
+a {
+    color: #F80;
+}
+h1 {
+    font-size: 2em;
+    color: #F80;
+}
+h2 {
+    font-size: 1.8em;
+    color: #888;
+}
+h3 {
+    font-size: 1.6em;
+}
+th {
+    background-color: #F80;
+    color: #FFF;
+}
+tr {
+    font-size: .9em;
+    background-color: #EEE;
+}
+.other {
+    background-color: #DDD;
+}
+#KadensPage div {
+    border: solid;
+    border-width: 1px;
+    border-color: #AAA;
+    font-weight: bold;
+    padding: .3em;
+    margin: .3em;
+}
+.success {
+    color: #080;
+    background-color: #F0FFF0; 
+    border-color: #080;
+}
+.warning {
+    color: #880;
+    background-color: #FFFFF0;
+    border-color: #880;
+}
+.error {
+    color: #800;
+    background-color: #FFF0F0;
+    border-color: #800;
+}

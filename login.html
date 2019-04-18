@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Kaden's Starting Page</title>
+    <link href="styles/storageStyle.css" rel="stylesheet" />
+    <script src="scripts/storage.js"></script>
+</head>
+<body>
+    <form id="login">
+        <div id="userNameText">UserName</div>
+        <input type="text" id="userName" />
+        <div id="passWordText">Password</div>
+        <input type="text" id="passWord" />
+        <input type="checkbox" id="rememberMe" />
+        <button id="btnForgetMe">Forget Me</button>
+        <button id="btnLogin">Login</button>
+    </form>
+
+    <form id="user">
+        <div id="nameText">Name</div>
+        <input type="text" id="name"/>
+        <div id="phoneText">Phone</div>
+        <input type="text" id="phone" />
+        <div id="ageText">Age</div>
+        <input type="text" id="age" />
+        
+
+        <fieldset name="Group">
+            <legend>Group</legend>
+            <input type="radio" id="groupOne" name="group" value="1" class="Groups" />
+            <label for="rbGroup1">1</label>
+            <input type="radio" id="groupTwo" name="group" value="2" class="Groups" />
+            <label for="rbGroup2">2</label>
+            <input type="radio" id="groupThree" name="group" value="3" class="Groups" />
+            <label for="rbGroup3">3</label>
+        </fieldset>
+
+        <button id="btnAddPerson">Add Person</button>
+        <button id="btnClearPerson">Clear Storage</button>
+
+        <a href="storage.html">View Storage</a>
+
+        <a href="index.html">Back to Index!</a>
+    </form>
+</body>
+</html>

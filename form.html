@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style type="text/css">
+        #TextArea1 {
+            width: 606px;
+        }
+
+        #Button1 {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Input Form</h1>
+    <form action="http://teaching.jdholmes.net/postvget/reader/index.php" method="post">
+        <p>
+            First Name:
+            <input type="text" name="First Name" id="txtFirstName" />
+        </p>
+        <p>
+            Last Name:
+            <input type="text" name=" Last Name" id="txtLastName" />
+        </p>
+  
+        <p>
+            Secret Key:
+            <input id="txtPassword" type="password" />
+        </p>
+  
+        <p>
+            FavoriteColor:
+            <select id="FavoriteColorSelecter" name="FavoriteColor">
+                <option>Blue</option>
+                <option>Yellow</option>
+                <option selected>Red</option>
+                <option>Black</option>
+            </select>
+        </p>
+    
+    <h3>Day of the Week</h3>
+
+    <p>
+        <input id="Radio1" name="SundayRadio" type="radio" value="V1" />Sunday</p>
+    <p>
+        <input id="Radio2" name="MondayRadio" type="radio" value="V1" />Monday</p>
+    <p>
+        <input id="Radio3"  name="TuesdayRadio" type="radio" value="V1" />Tuesday</p>
+    <p>
+        <input id="Radio4"  name="WednesdayRadio" type="radio" value="V1" />Wednesday</p>
+    <p>
+        <input id="Radio5"  name="ThursdayRadio" type="radio" value="V1" />Thursday</p>
+    <p>
+        <input id="Radio6"  name="FridayRadio" checked="true" type="radio" value="V1" />Friday</p>
+    <p>
+        <input id="Radio7"  name="SatrudayRadio" type="radio" value="V1" />Saturday</p>
+
+    <h3>Times</h3>
+    <p>
+        <input id="chkEleven" type="checkbox" />11:00 AM</p>
+    <p>
+        <input id="chkTwelve" type="checkbox" />12:00 AM</p>
+    <p>
+        <input id="chkOne" type="checkbox" />1:00 PM</p>
+    <p>
+        <input id="chkTwo" type="checkbox" />2:00 PM</p>
+    <p>
+        <input id="chkThree" type="checkbox" />3:00 PM</p>
+    <p>
+        <textarea id="txtDesciptionArea" name="Description" rows="2"></textarea></p>
+
+        
+    <p>
+        <input id="btnSubmit" type="submit" value="Send to Server" /></p>
+       </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿body {
+}
+a:hover {
+    color: #888;
+}
+td:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: cell;
+}
+/* Looked up how to add the Message and quotes on the webpage
+    https://css-tricks.com/almanac/properties/c/content/
+*/
+#KadensPage div::before {
+    content: "Message: ";
+}
+.special {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+.special::before {
+    content: open-quote;
+}
+.special::after {
+    content: close-quote;
+}

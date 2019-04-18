@@ -1,0 +1,21 @@
+﻿form {
+    background-color: #00ff90;
+    display: block;
+    width: 30em;
+    height: auto;
+    box-shadow: 5px 5px 10px #000000;
+    border: black ridge;
+}
+
+div{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #94cfd3
+
+}
